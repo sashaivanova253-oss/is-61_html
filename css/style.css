@@ -1,0 +1,42 @@
+header,aside,footer {
+    height: 100px;
+}
+header {
+   background-color: gray;
+}
+
+aside {
+    background-color: rgb(175,175,175);
+}
+
+main{
+    height: 400px;
+    background-color: rgb(221,221,221);
+}
+footer {
+    background-color: gray;
+}
+
+body{
+    display:flex;
+    flex-direction: column;
+
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+    justify-content:space-between;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    text-transform: capitalize;
+
+}
+
+header {
+    border-bottom: 1px solid gray;
+    padding: 2px 20px;
+}
